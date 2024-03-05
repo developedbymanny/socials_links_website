@@ -49,16 +49,16 @@ body {
 }
 
 .social-links {
+  display: flex;
+  flex-direction: column;
   border: solid #fff 0.2rem;
   width: 100%;
-  display: flex;
 }
 
-.social-links > div {
+.social-links > li {
   background-color: #333333;
   width: 80%;
   margin: 1rem 0rem;
   text-align: center;
   padding: 1rem;
-  flex
 }
