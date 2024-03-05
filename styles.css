@@ -6,6 +6,11 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -56,18 +61,30 @@ body {
   list-style: none;
 }
 
+.social-links:hover {
+  display: flex;
+  flex-direction: column;
+  border: solid #fff 0.2rem;
+  width: 100%;
+  list-style: none;
+  color: #141414;
+}
+
 .social-links > li {
   background-color: #333333;
-  font-weight: bold;
   width: 80%;
   margin: 1rem 0rem;
   text-align: center;
   padding: 1rem;
   border-radius: 0.7rem;
+  font-weight: bold;
 }
 
 .social-links > li:hover {
   cursor: pointer;
   background-color: #c5f82a;
+}
+
+.social-links > li:hover a {
   color: #141414;
 }
